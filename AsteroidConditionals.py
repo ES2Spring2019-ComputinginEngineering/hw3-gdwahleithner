@@ -128,7 +128,7 @@ while True:
 
     sleep(Frame_Rate_In_Milliseconds) #Delay between animations
 
-    if ((ship_X == asteroid_x) and (ship_Y == asteroid_Y)):  #Test to see if the ship has hit an asteroid
+    if ((ship_X == asteroid_x) and (ship_Y == asteroid_y)):  #Test to see if the ship has hit an asteroid
         # STEP 1 ##########################################################
         # Write a logical expression (replace the "False") above to determine
         # if the ship and asteroid are at the same location

@@ -1,3 +1,15 @@
+# ***********
+# Bubble Level
+# ES2 Homework Assignment HW3
+# ************************************************************
+# FILL THESE COMMENTS IN
+#*****************************************
+# YOUR NAME: Gillian Wahleithner
+# NUMBER OF HOURS TO COMPLETE: 5
+# YOUR COLLABORATION STATEMENT(s): I worked on this assignment with Zosia and Hector.
+#
+#
+#*****************************************
 import math
 
 from microbit import *
@@ -72,33 +84,33 @@ while True:
         if (anglexdegrees >= -5 and anglexdegrees <= 5) and (angleydegrees >= -5 and angleydegrees <= 5):
             display.show(Image.HAPPY)
 
-        elif (angleydegrees > 5 and angleydegrees <= 15) and (angleydegrees > anglexdegrees): #and angleydegrees < 20):
-            display.show(dimARROW_N)
-        elif (angleydegrees > 15 and angleydegrees <= 30) and (angleydegrees > anglexdegrees): #and angleydegrees < 20):
-            display.show(medARROW_N)
-        elif (angleydegrees > 30) and (angleydegrees > anglexdegrees): #and angleydegrees < 20):
+        elif (angleydegrees > 5 and angleydegrees <= 15) and (angleydegrees > anglexdegrees):
             display.show(Image.ARROW_N)
+        elif (angleydegrees > 15 and angleydegrees <= 30) and (angleydegrees > anglexdegrees):
+            display.show(medARROW_N)
+        elif (angleydegrees > 30) and (angleydegrees > anglexdegrees):
+            display.show(dimARROW_N)
 
-        elif (angleydegrees < -5 and angleydegrees >= -15) and (angleydegrees < anglexdegrees): #and angleydegrees > -20):
-            display.show(dimARROW_S)
-        elif (angleydegrees < -15 and angleydegrees >= -30) and (angleydegrees < anglexdegrees): #and angleydegrees > -20):
-            display.show(medARROW_S)
-        elif (angleydegrees < -30) and (angleydegrees < anglexdegrees): #and angleydegrees > -20):
+        elif (angleydegrees < -5 and angleydegrees >= -15) and (angleydegrees < anglexdegrees):
             display.show(Image.ARROW_S)
+        elif (angleydegrees < -15 and angleydegrees >= -30) and (angleydegrees < anglexdegrees):
+            display.show(medARROW_S)
+        elif (angleydegrees < -30) and (angleydegrees < anglexdegrees):
+            display.show(dimARROW_S)
 
-        elif (anglexdegrees > 5 and anglexdegrees <= 15) and (anglexdegrees > angleydegrees): #and anglexdegrees < 20):
-            display.show(dimARROW_W)
-        elif (anglexdegrees > 15 and anglexdegrees <= 30) and (anglexdegrees > angleydegrees): #and anglexdegrees < 20):
-            display.show(medARROW_W)
-        elif (anglexdegrees > 30) and (anglexdegrees > angleydegrees): #and anglexdegrees < 20):
+        elif (anglexdegrees > 5 and anglexdegrees <= 15) and (anglexdegrees > angleydegrees):
             display.show(Image.ARROW_W)
+        elif (anglexdegrees > 15 and anglexdegrees <= 30) and (anglexdegrees > angleydegrees):
+            display.show(medARROW_W)
+        elif (anglexdegrees > 30) and (anglexdegrees > angleydegrees):
+            display.show(dimARROW_W)
 
-        elif (anglexdegrees < -5 and anglexdegrees >= -15) and (anglexdegrees < angleydegrees): #and anglexdegrees > -20):
-            display.show(dimARROW_E)
-        elif (anglexdegrees < -15 and anglexdegrees >= -30) and (anglexdegrees < angleydegrees): #and anglexdegrees > -20):
-            display.show(medARROW_E)
-        elif (anglexdegrees < -30) and (anglexdegrees < angleydegrees): #and anglexdegrees > -20):
+        elif (anglexdegrees < -5 and anglexdegrees >= -15) and (anglexdegrees < angleydegrees):
             display.show(Image.ARROW_E)
+        elif (anglexdegrees < -15 and anglexdegrees >= -30) and (anglexdegrees < angleydegrees):
+            display.show(medARROW_E)
+        elif (anglexdegrees < -30) and (anglexdegrees < angleydegrees):
+            display.show(dimARROW_E)
         else:
             pass
 
