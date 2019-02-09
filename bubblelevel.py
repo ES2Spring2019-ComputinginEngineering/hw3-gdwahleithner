@@ -113,5 +113,3 @@ while True:
                                         #and the x axis tilt is greater than the y axis tilt
         else:
             pass
-
-        #(0,0,-90) --> level

@@ -7,7 +7,6 @@
 # https://gist.github.com/deejaygraham
 # ************************************************************
 
-
 # FILL THESE COMMENTS IN
 #*****************************************
 # YOUR NAME: Gillian Wahleithner
@@ -146,7 +145,6 @@ while True:
         # Write a logical expression (replace the "False") above to determine
         # if the asteroid is at the bottom of the screen. That is if asteroid_y
         # is equal to 4
-
         score += 1
         [asteroid_x, asteroid_y] = create_asteroid()
     else:

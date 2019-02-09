@@ -10,7 +10,6 @@
 #
 #*****************************************
 
-
 # One weird problem with Python is that floating numbers are saved in
 # a way that causes Python to represent decimals is a way that is slightly
 # different from the actual value of the decimal. This is because our number
@@ -55,7 +54,7 @@ def almost_equal(A, B):
     # returns True (boolean) if the difference is less than or equal to 0.000000001 which in Python may be written as 10**-9.
     # It should return False (boolena) if the difference is greater than 0.000000001.
     # Create your function here.
-    if ((A - B) <= 0.000000001):
+    if ((A - B) <= (10**-9)):
         return True
     else:
         return False
