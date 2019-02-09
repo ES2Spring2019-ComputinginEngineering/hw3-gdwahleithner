@@ -61,13 +61,13 @@ while True:
         medARROW_N = Image("00600:06660:60606:00600:00600")     #create medARROW_N image to display medium brightness arrow on microbit pointing North
 
         dimARROW_S = Image("00300:00300:30303:03330:00300")     #create dimARROW_S image to display dim arrow on microbit pointing South
-        medARROW_S = Image("00600:00600:60606:06660:00600")     #create dimARROW_S image to display medium brightness arrow on microbit pointing South
+        medARROW_S = Image("00600:00600:60606:06660:00600")     #create medARROW_S image to display medium brightness arrow on microbit pointing South
 
         dimARROW_E = Image("00300:00030:33333:00030:00300")     #create dimARROW_E image to display dim arrow on microbit pointing East
-        medARROW_E = Image("00600:00060:66666:00060:00600")     #create dimARROW_E image to display medium brightness arrow on microbit pointing East
+        medARROW_E = Image("00600:00060:66666:00060:00600")     #create medARROW_E image to display medium brightness arrow on microbit pointing East
 
         dimARROW_W = Image("00300:03000:33333:03000:00300")     #create dimARROW_W image to display dim arrow on microbit pointing West
-        medARROW_W = Image("00600:06000:66666:06000:00600")     #create dimARROW_W image to display medium brightness arrow on microbit pointing West
+        medARROW_W = Image("00600:06000:66666:06000:00600")     #create medARROW_W image to display medium brightness arrow on microbit pointing West
 
 
         if (anglexdegrees >= -5 and anglexdegrees <= 5) and (angleydegrees >= -5 and angleydegrees <= 5):
